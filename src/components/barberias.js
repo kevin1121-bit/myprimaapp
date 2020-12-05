@@ -1,12 +1,13 @@
 import React, { Component } from "react";
 
-class Dish extends Component{
+class Barberias extends Component{
     render(){
         return(
             <div>
-                <h1>Barberos</h1>
+                <h1>barberias</h1>
             </div>
         );
     }
 }
-export default Dish;
+
+export default Barberias;

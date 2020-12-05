@@ -1,16 +1,23 @@
-import logo from './assets/logo.svg';
 import Header from "./components/header";
-import Dish from "./components/dish";
+import Search from "./components/search";
 import './styles/App.css';
+import { Component } from "react";
+import Barber from "./user/barber";
 
-function App() {
-  return (
+
+
+class App extends Component {
+ 
+  render(){
+   return (
     <div className="App">
+      
           <Header />
-          <Dish />
+          <Search />
+          <Barber />
       </div>
-     
-  );
+    );
+  }
 }
 
 export default App;
